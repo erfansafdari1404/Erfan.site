@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آهنگ‌ها - سایت عرفان</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background-color: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 25px;
+      font-size: 1.8em;
+    }
+    .music-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .song {
+      background-color: #2c2c2c;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(255,255,255,0.1);
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+    a.back {
+      color: #ccc;
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>لیست آهنگ‌ها</header>
+
+  <section class="music-list">
+    <div class="song">
+      <strong>آهنگ شماره ۱ - هنرمند X</strong>
+      <audio controls>
+        <source src="music/song1.mp3" type="audio/mpeg">
+        مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
+      </audio>
+    </div>
+    <div class="song">
+      <strong>آهنگ شماره ۲ - هنرمند Y</strong>
+      <audio controls>
+        <source src="music/song2.mp3" type="audio/mpeg">
+        مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
+      </audio>
+    </div>
+  </section>
+
+  <a class="back" href="index.html">بازگشت به صفحه اصلی</a>
+</body>
+</html>
